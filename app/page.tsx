@@ -11,14 +11,14 @@ export default function Home() {
       </div>
 
       <main>
-        <h1 className="text-5xl font-bold">Ayelin Vellikara</h1>
-        <p>Welcome to my personal website</p>
+        <h1 className="text-5xl font-bold absolute left-[650px] top-[200px] whitespace-nowrap">Ayelin Vellikara</h1>
+        <p className="absolute left-[650px] top-[300px] whitespace-nowrap text-2xl"> University of Illinois Chicago</p>
         <Image
           src="/profile.jpg"   // file must be in /public
           alt="Profile"
-          width={220}
-          height={220}
-          className="mt-10"
+          width={400}
+          height={500}
+          className="mt-20 ml-30"
         />
       </main>
     </div>
